@@ -4,7 +4,7 @@
 - sudo add-apt-repository ppa:neovim-ppa/stable
 - sudo apt-get update
 ### Arquivos de configuração
-- init.vim - .config/init.vim
+- init.vim - .config/nvim/init.vim
 - plug.vim - .local/share/nvim/site/autoload/plug.vim
 ### Fonte para o NERDtree(vim-devicons)
 ```
