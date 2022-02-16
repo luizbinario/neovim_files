@@ -7,6 +7,7 @@ set autoindent
 " set cc=80
 syntax on
 set termguicolors
+autocmd vimenter * ++nested colorscheme gruvbox
 
 call plug#begin()
 
@@ -23,6 +24,11 @@ Plug 'nvim-telescope/telescope-fzy-native.nvim'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'morhetz/gruvbox'
+
+"Diffview
+Plug 'nvim-lua/plenary.nvim'
+Plug 'sindrets/diffview.nvim'
 
 call plug#end()
 
