@@ -29,6 +29,7 @@ Plug 'morhetz/gruvbox'
 "Diffview
 Plug 'nvim-lua/plenary.nvim'
 Plug 'sindrets/diffview.nvim'
+Plug 'mattn/emmet-vim'
 
 call plug#end()
 
@@ -61,3 +62,6 @@ nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 let g:airline_solarized_bg='dark'
 let g:airline_section_y=''
 let g:airline_section_z='%3p%% %3l/%L'
+
+"Emmet remap
+let g:user_emmet_leader_key=','
