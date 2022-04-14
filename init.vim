@@ -1,3 +1,4 @@
+set encoding=UTF-8
 set number
 set noswapfile
 set tabstop=2
@@ -8,10 +9,20 @@ set autoindent
 syntax on
 set termguicolors
 autocmd vimenter * ++nested colorscheme gruvbox
+"autocmd vimenter * ++nested colorscheme dracula
 
 call plug#begin()
 
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
+" Syntax: html
+Plug 'othree/html5.vim'
+" Syntax: Javascript
+Plug 'yuezk/vim-js'
+" Syntax: scss
+Plug 'cakebaker/scss-syntax.vim'
+" Syntax: Vue
+Plug 'posva/vim-vue'
 
 Plug 'preservim/nerdtree' |
             \ Plug 'Xuyuanp/nerdtree-git-plugin' |
@@ -25,6 +36,7 @@ Plug 'nvim-telescope/telescope-fzy-native.nvim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'morhetz/gruvbox'
+"Plug 'Mofiqul/dracula.nvim'
 
 "Diffview
 Plug 'nvim-lua/plenary.nvim'
