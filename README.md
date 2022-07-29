@@ -3,6 +3,7 @@
 ### Instalando o neovim ([Distros baseadas no ubuntu](https://launchpad.net/~neovim-ppa/+archive/ubuntu/stable))
 - sudo add-apt-repository ppa:neovim-ppa/stable
 - sudo apt-get update
+- sudo apt-get install neovim
 ### Arquivos de configuração
 - init.vim - .config/nvim/init.vim
 - plug.vim - .local/share/nvim/site/autoload/plug.vim
