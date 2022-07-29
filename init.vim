@@ -1,10 +1,12 @@
 set encoding=UTF-8
 set number
+set list
 set noswapfile
 set tabstop=2
+set expandtab
 set softtabstop=2
 set shiftwidth=2
-set autoindent
+" set autoindent
 " set cc=80
 syntax on
 set termguicolors
